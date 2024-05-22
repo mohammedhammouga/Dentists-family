@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #343a40;
+  padding-top: 3.5rem; /* Même hauteur que la barre de navigation */
+}
+
+.sidebar ul.nav.flex-column {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.sidebar ul.nav.flex-column .nav-link {
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.sidebar ul.nav.flex-column .nav-link:hover {
+  background-color: #212529;
+}
+
+/* Contenu principal */
+.container {
+  margin-top: 3.5rem; /* Même hauteur que la barre de navigation */
+}
+
+/* Barre de navigation */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #fff;
+}
