@@ -24,6 +24,7 @@
                         @if(Auth::user()->profile_photo)
                             <img src="{{ asset('storage/' . Auth::user()->profile_photo) }}" alt="Profile Photo" class="mt-2 img-fluid rounded-circle" style="max-width: 150px;">
                         @else
+                       
                         @endif
                     </div>
                 </div>
